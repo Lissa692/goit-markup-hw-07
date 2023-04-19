@@ -79,7 +79,7 @@ address {
 }
 
 /*____________________BODY____________ */
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   color: var(--text);
   background-color: var(--white-background);
@@ -97,10 +97,10 @@ body {
 
 .header-navigation {
   display: flex;
-}
+} */
 
 /*____________________LOGO____________ */
-.header-logo {
+/* .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -114,8 +114,8 @@ body {
   color: var(--dark);
 }
 
-/*____________________HEADER____________ */
-.header-list {
+____________________HEADER____________ */
+/* .header-list {
   display: flex;
 }
 .header-item {
@@ -181,10 +181,10 @@ body {
 .header-contacts:hover,
 .header-contacts:focus {
   color: var(--pressed-state);
-}
+} */
 
 /*____________________MAIN SECTION_1____________ */
-.first-section {
+/* .first-section {
   background-color: var(--dark);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -227,9 +227,9 @@ body {
 .first-btn:focus,
 .first-btn:hover {
   background-color: var(--pressed-state);
-}
+} */
 /*____________________MAIN SECTION_2____________ */
-.second-section {
+/* .second-section {
 }
 .advantages-list {
   display: flex;
@@ -263,9 +263,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
-}
+} */
 /*____________________MAIN SECTION_3____________ */
-.work {
+/* .work {
   padding-top: 0;
 }
 
@@ -285,11 +285,11 @@ body {
 }
 .third-section-link {
   width: calc(100% - 24) / 3;
-}
+} */
 
 /*____________________MAIN SECTION_4____________ */
 
-.team {
+/* .team {
   background-color: var(--light);
 }
 
@@ -360,10 +360,10 @@ body {
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--pressed-state);
-}
+} */
 
 /*____________________CUSTOMERS____________ */
-.customers {
+/* .customers {
 }
 .customers-title {
   font-size: 36px;
@@ -405,10 +405,10 @@ body {
 .customers-link:hover,
 .customers-link:focus > .customers-icon {
   fill: var(--pressed-state);
-}
+} */
 
 /*____________________PORTFOLIO SECTION____________ */
-.portfolio-section {
+/* .portfolio-section {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -420,9 +420,9 @@ body {
 }
 
 .content-list {
-}
+} */
 /*____________________button list____________ */
-.list-btn {
+/* .list-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -443,10 +443,10 @@ body {
   background-color: var(--pressed-state);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 /*____________________aside____________ */
 
-.aside {
+/* .aside {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -509,10 +509,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
-}
+} */
 /*____________________FOOTER____________ */
 
-.footer {
+/* .footer {
   background-color: var(--dark);
   padding-top: 100px;
   padding-bottom: 100px;
@@ -546,10 +546,10 @@ body {
   max-width: 264px;
   margin-top: 16px;
   color: var(--light);
-}
+} */
 
 /*____________________SOC-FOOTER ____________ */
-.footer-soc {
+/* .footer-soc {
   margin-right: 80px;
 }
 .soc-subtitle {
@@ -583,9 +583,9 @@ body {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--success);
-}
+} */
 /*____________________footer-subscribe____________ */
-.subscribe {
+/* .subscribe {
 }
 .footer-subtitle {
   font-weight: 500;
@@ -639,10 +639,10 @@ body {
 }
 .footer-icon {
   fill: #ffffff;
-}
+} */
 
 /*____________________modal-window____________ */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0%;
   left: 0;
@@ -788,15 +788,6 @@ body {
 .text-privasy {
   color: var(--primary-brand);
 }
-/* .privacy-policy::before {
-  display: block;
-  content: "";
-  width: 16px;
-  height: 16px;
-  border: 1px solid var(--dark);
-  border-radius: 2px;
-  margin-right: 8px;
-} */
 .wrap-checkbox {
 }
 .btn-submit {
@@ -818,4 +809,4 @@ body {
 .btn-submit:hover,
 .btn-submit:focus {
   background-color: var(--pressed-state);
-}
+} */

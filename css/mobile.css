@@ -1,0 +1,113 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*____________________MAIN SECTION_2____________ */
+.container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.second-section-link {
+  flex-basis: 100%;
+}
+.advantages-icon {
+  display: none;
+}
+.icon {
+  display: none;
+}
+.second-section-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: var(--dark);
+}
+.second-section-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+@media screen and (min-width: 428px) {
+  .container {
+    width: 396px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ________________________768px_____________________ */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 736px;
+  }
+  .second-section-link {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .second-section-subtitle {
+    text-align: start;
+  }
+  .second-section-text {
+  }
+}
+/* __________________________1158px_____________________ */
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1128px;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .second-section-link {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .advantages-icon {
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon {
+    display: block;
+  }
+  .advantages-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .second-section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  .second-section-text {
+    font-weight: 400;
+  }
+}

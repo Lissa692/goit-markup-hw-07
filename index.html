@@ -20,19 +20,9 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
-    <link
-      rel="stylesheet"
-      href="./css/tablet.css"
-      media="screen and (min-width:768px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/desktop.css"
-      media="screen and (min-width:1158px)"
-    />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-main">
         <nav class="header-navigation list">
           <a href="./index.html" class="header-logo link"
@@ -65,16 +55,44 @@
           </ul>
         </address>
       </div>
-    </header> -->
+      <!-- <div class="container">
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+
+        <ul class="menu">
+          <li><a href="" class="link">About</a></li>
+          <li><a href="" class="link">Products</a></li>
+          <li><a href="" class="link">Contacts</a></li>
+          <li><a href="" class="link">Career</a></li>
+        </ul>
+      </div> -->
+    </header>
     <main>
-      <!-- <section class="first-section">
+      <section class="first-section">
         <div class="container">
-          <h1 class="first-title">Effective Solutions for Your Business</h1>
+          <h1 class="first-title">Effective Solutions For Your Business</h1>
           <button class="first-btn" data-modal-open type="button">
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- ____________________MAIN SECTION_2____________ -->
       <section class="second-section section">
         <div class="container">
@@ -137,14 +155,25 @@
           <h2 class="third-title">What are we doing</h2>
           <ul class="working-list list">
             <li class="third-section-link">
-              <img src="./images/comp1.jpg" alt="monitor" width="360" />
+              <img
+                src="./images/comp1.jpg"
+                alt="monitor"
+                srcset="./images/comp-2x.jpg 2x"
+                width="360"
+              />
             </li>
             <li class="third-section-link">
-              <img src="./images/tel2.jpg" alt="smartphone" width="360" />
+              <img
+                src="./images/tel2.jpg "
+                alt="smartphone"
+                srcset="./images/tel-2x.jpg 2x"
+                width="360"
+              />
             </li>
             <li class="third-section-link">
               <img
                 src="./images/tel3.jpg"
+                srcset="./images/tel-whith-2x.jpg 2x"
                 alt="smartphone in hand"
                 width="360"
               />
@@ -158,7 +187,12 @@
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-link">
-              <img src="./images/foto1.jpg" alt="foto1" width="264" />
+              <img
+                src="./images/foto1.jpg"
+                srcset="./images/foto1-2x.jpg 2x"
+                alt="foto1"
+                width="264"
+              />
               <div class="about-team">
                 <h3 class="team-subtitle">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
@@ -195,7 +229,12 @@
               </div>
             </li>
             <li class="team-link">
-              <img src="./images/foto2.jpg" alt="foto2" width="264" />
+              <img
+                src="./images/foto2.jpg"
+                srcset="./images/foto2-2x.jpg 2x"
+                alt="foto2"
+                width="264"
+              />
               <div class="about-team">
                 <h3 class="team-subtitle">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
@@ -232,7 +271,12 @@
               </div>
             </li>
             <li class="team-link">
-              <img src="./images/foto3.jpg" alt="foto3" width="264" />
+              <img
+                src="./images/foto3.jpg"
+                srcset="./images/foto3-2x.jpg 2x"
+                alt="foto3"
+                width="264"
+              />
               <div class="about-team">
                 <h3 class="team-subtitle">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
@@ -269,7 +313,12 @@
               </div>
             </li>
             <li class="team-link">
-              <img src="./images/foto4.jpg" alt="foto4" width="264" />
+              <img
+                src="./images/foto4.jpg"
+                srcset="./images/foto4-2x.jpg 2x"
+                alt="foto4"
+                width="264"
+              />
               <div class="about-team">
                 <h3 class="team-subtitle">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
@@ -360,7 +409,7 @@
       </section>
     </main>
     <!-- footer -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="footer-wrap container">
         <div class="footer-content">
           <a href="./index.html" class="footer-logo link"
@@ -423,8 +472,8 @@
           </form>
         </div>
       </div>
-    </footer> -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
@@ -500,6 +549,6 @@
         </button>
       </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>

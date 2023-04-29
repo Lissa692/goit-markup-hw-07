@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-brand: #4d5ae5;
   --pressed-state: #404bbf;
   --dark: #2e2f42;
@@ -58,7 +58,6 @@ address {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid green; */
 }
 .section {
   padding-top: 120px;
@@ -76,16 +75,16 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /*____________________BODY____________ */
 /* body {
   font-family: "Roboto", sans-serif;
   color: var(--text);
   background-color: var(--white-background);
-}
+} */
 
-.header {
+/* .header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--accent);
@@ -114,7 +113,8 @@ address {
   color: var(--dark);
 }
 
-____________________HEADER____________ */
+
+__________________HEADER____________ */
 /* .header-list {
   display: flex;
 }
@@ -351,11 +351,16 @@ ____________________HEADER____________ */
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  color: var(--light);
   background-color: var(--primary-brand);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background-color var(--effects);
+}
+.team-soc-icon{
+  fill: currentColor;
+  transition: fill var(--effects);
 }
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -363,7 +368,7 @@ ____________________HEADER____________ */
 } */
 
 /*____________________CUSTOMERS____________ */
-/* .customers {
+/*.customers  {
 }
 .customers-title {
   font-size: 36px;
@@ -576,10 +581,14 @@ ____________________HEADER____________ */
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: var(--primary-brand);
+  color: var(--light);
+  background-color: var(--text);
   transition: background-color var(--effects);
 }
-
+.footer-soc-icon {
+  fill: currentColor;
+  transition: color var(--effects);
+}
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--success);

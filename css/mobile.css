@@ -1,8 +1,8 @@
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 
   margin: 0;
@@ -12,6 +12,7 @@
   border: none;
   border-radius: 50%;
   outline: none;
+  margin-left: auto;
 }
 
 .menu-toggle:hover,
@@ -51,15 +52,17 @@
   margin: 0;
   list-style: none;
 }
-
 .mobile-menu .link {
   display: block;
-  padding: 10px;
+  padding: 40px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--dark);
+}
+.mobile-menu .mobile-menu-link {
+  color: var(--pressed-state);
 }
 .mobile-menu-address-list {
   margin-top: auto;
@@ -85,7 +88,7 @@
 .mob-soc-list {
   display: flex;
   justify-content: center;
-  gap: 56px;
+  gap: 30px;
 }
 
 .mob-soc-item {
@@ -189,15 +192,14 @@
 
   /* __________________HEADER____________ */
   .header {
-    min-width: 320px;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 24px;
-    padding-bottom: 22px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border-bottom: 1px solid var(--accent);
   }
 
+  .header-main {
+    display: flex;
+  }
   /*____________________LOGO____________ */
   .header-logo {
     font-family: "Raleway", sans-serif;
@@ -222,16 +224,15 @@
   /*____________________MAIN SECTION_1____________ */
   .first-section {
     background-color: var(--dark);
-    padding-top: 188px;
-    padding-bottom: 188px;
     text-align: center;
     background-image: var(--hero-background), url(../images/mob-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
-    height: 600px;
-    margin: auto;
+    max-width: 428px;
+    height: 432px;
+    margin: 0 auto;
+    padding: 112px 0;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -551,7 +552,9 @@
   top: 50%;
   left: 50%;
   width: 392px;
+  width: 95%;
   height: 584px;
+  height: 95%;
   padding: 72px 24px 24px;
   background-color: var(--modal-background);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -684,8 +687,7 @@
 .text-privasy {
   color: var(--primary-brand);
 }
-.wrap-checkbox {
-}
+
 .btn-submit {
   font-family: inherit;
   font-weight: 500;
@@ -712,6 +714,21 @@
     padding: 0 16px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .first-section {
+    background-image: var(--hero-background), url(../images/tab-bg.jpg);
+
+    max-width: 767px;
+    height: 436px;
+    margin: 0 auto;
+    padding: 112px 0;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .first-section {
+      background-image: var(--hero-background), url(../images/tab-bg-2x.jpg);
+    }
   }
 }
 /* ________________________Tablet_____________________ */
@@ -874,8 +891,7 @@
     font-style: normal;
     margin-left: auto;
   }
-  .header-address-items {
-  }
+
   .header-contacts {
     font-style: normal;
     font-weight: 400;
@@ -892,22 +908,22 @@
   /*____________________MAIN SECTION_1____________ */
   .first-section {
     background-color: var(--dark);
-    padding-top: 188px;
-    padding-bottom: 188px;
     text-align: center;
-    background-image: var(--hero-background), url(../images/tab-bg.jpg);
+    background-image: var(--hero-background), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
-    height: 600px;
-    margin: auto;
+    max-width: 768px;
+    height: 436px;
+    padding: 112px 0;
+    margin: 0 auto;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .first-section {
-      background-image: var(--hero-background), url(../images/tab-bg-2x.jpg);
+      background-image: var(--hero-background),
+        url(../images/people-office-2x.jpg);
     }
   }
   .first-title {
@@ -944,7 +960,7 @@
   .advantages-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
   .second-section-link {
     flex-basis: calc((100% - 24px) / 2);
@@ -1056,10 +1072,10 @@
 
   .customers-list {
     display: flex;
+    justify-content: center;
   }
 
   .customers-item {
-    flex-basis: calc((100% - 48px) / 3);
     width: 168px;
     height: 88px;
   }
@@ -1211,16 +1227,14 @@
   .footer-icon {
     fill: currentColor;
   }
-}
-.modal-window {
-  width: 408px;
-  height: 576px;
+
+  .modal-window {
+    width: 408px;
+    height: 576px;
+  }
 }
 /* __________________________MAX 1157_____________________ */
 @media screen and (max-width: 1157px) {
-  .first-section {
-    background-image: var(--hero-background), url(../images/tab-bg.jpg);
-  }
   .team-list {
     flex-wrap: wrap;
     row-gap: 64px;
@@ -1273,17 +1287,11 @@
     display: flex;
     gap: 40px;
   }
-
   .first-section {
-    background-image: var(--hero-background), url(../images/people-office.jpg);
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .first-section {
-      background-image: var(--hero-background),
-        url(../images/people-office-2x.jpg);
-    }
+    padding: 188px 0;
+    max-width: 1440px;
+    height: 600px;
+    margin: auto;
   }
   .second-section-link {
     flex-basis: calc((100% - 72px) / 4);

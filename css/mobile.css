@@ -54,12 +54,13 @@
 }
 .mobile-menu .link {
   display: block;
-  padding: 40px;
+  padding: 10px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--dark);
+  margin-bottom: 40px;
 }
 .mobile-menu .mobile-menu-link {
   color: var(--pressed-state);
@@ -74,7 +75,7 @@
 }
 .mobile-menu-tel {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 27px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--primary-brand);
@@ -199,6 +200,7 @@
 
   .header-main {
     display: flex;
+    align-items: center;
   }
   /*____________________LOGO____________ */
   .header-logo {
@@ -722,6 +724,9 @@
     height: 436px;
     margin: 0 auto;
     padding: 112px 0;
+  }
+  .mobile-menu-tel {
+    font-size: 36px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
